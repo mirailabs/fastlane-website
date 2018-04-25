@@ -1,0 +1,18 @@
+{
+  "name": "fastlane-website",
+  "version": "1.0.0",
+  "description": "Express Saver Website",
+  "author": "Preetam D'Souza",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "start": "next start",
+    "deploy": "s3cmd -c .s3cmd-config sync out/ s3://express-saver.com"
+  },
+  "dependencies": {
+    "next": "^5.1.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  },
+  "devDependencies": {}
+}
