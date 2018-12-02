@@ -26,7 +26,7 @@ TABLE OF CONTENTS
 
 1. What information do we collect?
 
-Some information — such as IP address and/or browser and device characteristics — is collected automatically when you visit our Sites or Apps.
+Some information - such as IP address and/or browser and device characteristics - is collected automatically when you visit our Sites or Apps.
 
 2. How do we use your information?
 
