@@ -3,7 +3,7 @@ import Head from 'next/head';
 function Footer() {
   return (
     <div>
-      © mirai labs ・ <a href="mailto:apps@mirailabs.io">contact</a>
+      © mirai labs・<a href="static/privacy-policy.txt">privacy</a>・<a href="mailto:apps@mirailabs.io">contact</a>
 
       <style jsx>{`
         div {
@@ -111,6 +111,7 @@ export default () =>
         text-decoration: none;
       }
       a:visited {
+        color: rgba(255, 255, 255, 0.87);
         text-decoration: none;
       }
       a:hover {
