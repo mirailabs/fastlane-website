@@ -3,7 +3,7 @@ import Head from 'next/head';
 function Footer() {
   return (
     <div>
-      © mirai labs・<a href="static/privacy-policy.txt">privacy</a>・<a href="mailto:apps@mirailabs.io">contact</a>
+      © d'souza labs・<a href="static/privacy-policy.txt">privacy</a>・<a href="mailto:preetamjdsouza+apps@gmail.com">contact</a>
 
       <style jsx>{`
         div {
