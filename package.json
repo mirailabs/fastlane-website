@@ -10,9 +10,9 @@
     "deploy": "s3cmd -c .s3cmd-config sync out/ s3://express-saver.com"
   },
   "dependencies": {
-    "next": "^5.1.0",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
-  },
-  "devDependencies": {}
+    "eslint-config-next": "^14.1.4",
+    "next": "^14.1.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
 }

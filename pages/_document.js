@@ -1,14 +1,14 @@
 // Based on https://github.com/zeit/next.js/tree/canary/examples/with-google-analytics
 
-import React from 'react';
-import Document, { Head, Main, NextScript } from 'next/document';
+import React from "react";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
-import { GA_TRACKING_ID } from '../config/gtag';
+import { GA_TRACKING_ID } from "../config/gtag";
 
 export default class extends Document {
-  render () {
+  render() {
     return (
-      <html>
+      <Html>
         <Head>
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
@@ -23,14 +23,15 @@ export default class extends Document {
             gtag('js', new Date());
 
             gtag('config', '${GA_TRACKING_ID}');
-          `}}
+          `,
+            }}
           />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-      </html>
-    )
+      </Html>
+    );
   }
 }
