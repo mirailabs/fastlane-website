@@ -5,7 +5,7 @@
   "author": "Preetam D'Souza",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
     "deploy": "s3cmd -c .s3cmd-config sync out/ s3://express-saver.com"
   },
